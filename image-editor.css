@@ -1,27 +1,30 @@
+/* Styling for the main image editor container */
 #imageEditor {
-    margin:auto;
-    padding:20px;
-    border:1px solid #4b4b4b;
+    margin: auto; /* Centers the container horizontally */
+    padding:20px;  /* Adding padding inside the container */
+    border:1px solid #4b4b4b;  /* Setting border color and thickness */
     -moz-border-radius:8px;
-    -webkit-border-radius:8px;
+    -Webkit-border-radius:8px;
     border-radius:8px;
-    background-color:#ababab;
+    background-color:#ababab; /* Sets the background color */
 }
 
-#editorContainer {
-    display:block;
-    overflow: auto;
+#editorContainer /* Container for the editor which includes editing tools */
+{
+    display: block; /* Ensures the container is a block-level element */
+    overflow: auto; /* Adds scrollbars if content overflows */
     width: 800px;
     height: 500px;
 }
 
-#editor {
-    display:block;
+#editor /* Styling for the editor element which can be an image display area */
+{
+    display: block;
     margin: auto;
 }
 
 #toolbar {
-    display:block;
+    display: block;
     margin-right: 50px;
 }
 
